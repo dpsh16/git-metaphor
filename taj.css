@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+   /* background-color: black;
+    overflow:hidden;*/
+   background-color: black;
+   width: auto;
+    height: auto;
+    background-size: 600vh;
+    background-position: top;
+}
+ul li.active a{
+    background-color: dodgerblue;
+    border: 1px white;
+    color: white;
+}
+.main{
+    float: right;
+    margin-top: 35px;
+    max-width: 1200px;
+    list-style: none;
+    margin-right: 20px;
+}
+.main li{
+    display: inline-block;
+}
+.main li a{
+  color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: verdana;
+    font-size: 18px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.main li a:hover{
+     border:2px solid #ddd;
+  color: yellow;
+}
+body{
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+.bg{
+    background-image: url(2.jpg);rgba(0,0,0,0.5);rgba(0,0,0,0.5);
+}

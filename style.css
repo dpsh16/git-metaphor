@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    overflow:hidden;
+    height: auto;
+    background-size: 600vh;
+    background-position: top;
+}
+ul li.active a{
+    border: 1px white;
+    color: white;
+}
+.main{
+    float: right;
+    margin-top: 30px;
+    max-width: 1200px;
+    list-style: none;
+    margin-right: 20px;
+}
+.main li{
+    display: inline-block;
+}
+.main li a{
+  color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: verdana;
+    font-size: 18px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.main li a:hover{
+     border:2px solid #ddd;
+  color: yellow;
+}
+.search-btn{
+    color:white;
+    float:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+}
+.main li.active a{
+    border: 1px white;
+     background-color: dodgerblue;
+  color: white;
+}
+.main li a{
+    border: 1px white;
+}
+.row input[type=text]{
+    margin-top: 37px;
+    padding: 5px 20px;
+    float: right;
+    border: 1px black;
+    margin-left: 4px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+body{
+    background-color: black;
+    background-size: 600vh;
+}
+.btn{
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    padding: 4px 4px;
+    color: yellow;
+    background-color: yellow;
+}
